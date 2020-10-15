@@ -34,6 +34,12 @@ public class NioServer {
         //4、把serverSocketChannel 注册到selector ，然后关心的事件为 OP_ACCEPT
         serverSocketChannel.register(selector, SelectionKey.OP_ACCEPT);
 
+        // selector.keys： 表示所有
+        // selector.selectedKeys(): 表示channel里面的事件个数
+        System.out.println("注册后的SelectionKey 数量" + selector.keys().size());
+
+        //
+
         //可以支持多个线程 循环监听
         //循环等待客户端连接，
         while (true) {
@@ -81,6 +87,8 @@ public class NioServer {
                     // 第二个参数：事件选择器
                     // 第三个参数：给注册通道绑定 一个Buffer
                     socketChannel.register(selector, SelectionKey.OP_READ, ByteBuffer.allocate(1024));
+
+                    System.out.println("客户端连接后，注册后的SelectionKey 数量" + selector.keys().size());
                 }
 
                 /**得到一个连接过后，对应客户端来讲第一次连接好，生成好SocketChannel 就可以发生数据了

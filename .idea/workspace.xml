@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b91e9bd7-e816-47a0-aa85-929a9fe76e10" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/image/java-netty-framework-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-nio-selector-groupchat-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-nio-selector-groupchat-client-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-nio-selector-groupchat-client-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-nio-zero-copy-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-nio-zero-copy-mmap-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-nio-zero-copy-sendfile-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-nio-zero-copy-sendfile-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-reactor-single-thread-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protoc-3.6.1-win32.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/nio/groupchat/GroupChatClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/nio/groupchat/GroupChatServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/nio/zerocopy/NewIoClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/nio/zerocopy/NewIoServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/nio/zerocopy/OldIoClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/nio/zerocopy/OldIoServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/simple/nio/NioServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/nio/NioServer.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\soft\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ii3LISFWeUBF5WA2mKy437xpO1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.1521739" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.learn.netty.nio" />
+      <recent name="com.learn.netty" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\testpace\learn-netty" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.GroupChatClient">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration name="GroupChatClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.simple.nio.groupchat.GroupChatClient" />
+      <module name="learn-netty.main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.simple.nio.groupchat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GroupChatServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.simple.nio.groupchat.GroupChatServer" />
+      <module name="learn-netty.main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.simple.nio.groupchat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewIoClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.simple.nio.zerocopy.NewIoClient" />
+      <module name="learn-netty.main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.simple.nio.zerocopy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OldIoClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.simple.nio.zerocopy.OldIoClient" />
+      <module name="learn-netty.main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.simple.nio.zerocopy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OldIoServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.simple.nio.zerocopy.OldIoServer" />
+      <module name="learn-netty.main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.simple.nio.zerocopy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GroupChatClient" />
+        <item itemvalue="Application.GroupChatServer" />
+        <item itemvalue="Application.OldIoClient" />
+        <item itemvalue="Application.OldIoServer" />
+        <item itemvalue="Application.NewIoClient" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b91e9bd7-e816-47a0-aa85-929a9fe76e10" name="Default Changelist" comment="" />
+      <created>1602376527026</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602376527026</updated>
+      <workItem from="1602376528921" duration="4902000" />
+      <workItem from="1602462913106" duration="4606000" />
+      <workItem from="1602467997444" duration="13104000" />
+      <workItem from="1602512737855" duration="3088000" />
+      <workItem from="1602547796884" duration="17948000" />
+      <workItem from="1602598884327" duration="2958000" />
+      <workItem from="1602634492107" duration="15296000" />
+      <workItem from="1602684136663" duration="4342000" />
+      <workItem from="1602720401069" duration="8284000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="540" y="52" key="#com.intellij.ide.util.MemberChooser" timestamp="1602658039037">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="540" y="52" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1602658039037" />
+    <state width="1444" height="418" key="GridCell.Tab.0.bottom" timestamp="1602755185326">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1444" height="418" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1602755185326" />
+    <state width="1444" height="418" key="GridCell.Tab.0.center" timestamp="1602755185326">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1444" height="418" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1602755185326" />
+    <state width="1444" height="418" key="GridCell.Tab.0.left" timestamp="1602755185326">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1444" height="418" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1602755185326" />
+    <state width="1444" height="418" key="GridCell.Tab.0.right" timestamp="1602755185326">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1444" height="418" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1602755185326" />
+    <state width="1444" height="124" key="GridCell.Tab.1.bottom" timestamp="1602515827518">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1444" height="124" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1602515827518" />
+    <state width="1444" height="124" key="GridCell.Tab.1.center" timestamp="1602515827518">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1444" height="124" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1602515827518" />
+    <state width="1444" height="124" key="GridCell.Tab.1.left" timestamp="1602515827518">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1444" height="124" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1602515827518" />
+    <state width="1444" height="124" key="GridCell.Tab.1.right" timestamp="1602515827518">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1444" height="124" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1602515827518" />
+    <state x="246" y="114" key="IDE.errors.dialog" timestamp="1602482421981">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="246" y="114" key="IDE.errors.dialog/0.0.1536.864@0.0.1536.864" timestamp="1602482421981" />
+    <state x="101" y="0" key="SettingsEditor" timestamp="1602568479001">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="101" y="0" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1602568479001" />
+    <state x="590" y="174" width="737" height="690" key="find.popup" timestamp="1602487287813">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="590" y="174" width="737" height="690" key="find.popup/0.0.1536.864@0.0.1536.864" timestamp="1602487287813" />
+    <state x="358" y="-2" width="840" height="862" key="search.everywhere.popup" timestamp="1602653627183">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="358" y="-2" width="840" height="862" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1602653627183" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/learn/simple/nio/BasicBuffer.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/learn/simple/nio/NioFileChannel01.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/learn/simple/nio/NioFileChannel03.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/learn/simple/nio/NioFileChannel03.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
