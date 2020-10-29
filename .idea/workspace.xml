@@ -1,64 +1,191 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b91e9bd7-e816-47a0-aa85-929a9fe76e10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/image/java-netty-asyc-01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/java-netty-asyc-02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/java-netty-boss-group-number-01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/java-netty-boss-group-number-02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/java-netty-boss-worker-group-test-01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/java-netty-boss-worker-group-test-02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/java-netty-boss-worker-group-test-03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/java-netty-boss-worker-group-test-04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/java-netty-channel-01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/java-netty-channelhandler-01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/java-netty-channelhandlercontext-01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/java-netty-channelhandlercontext-02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/java-netty-channelpipeline-01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/java-netty-channelpipeline-02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/java-netty-client-01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/java-netty-context-01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/java-netty-context-channel-01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/java-netty-context-pipeline-01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/java-netty-evntloop-01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/java-netty-evntloop-02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/java-netty-evntloop-03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/java-netty-evntloopgroup-01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/java-netty-httpserver-test-01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/java-netty-httpserver-test-02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/java-netty-httpserver-test-03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/java-netty-httpserver-test-04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/java-netty-httpserver-test-05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/java-netty-pipeline-channel-eventloop-taskqueue-01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/java-netty-pipeline-channel-eventloop-taskqueue-02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/java-netty-pipeline-channel-eventloop-taskqueue-03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/java-netty-schedule-queue-test-01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/java-netty-server-01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/java-netty-socketchannel-different-01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/java-netty-task-long-time-01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/java-netty-task-queue-test-01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/java-netty-task-queue-test-02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/java-netty-unpooled-buffer-01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/java-netty-unpooled-buffer-02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/java-netty-worker-group-number-01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/NettyClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/NettyClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/NettyServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/NettyServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/buf/NettyByteBufOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/http/TestHttpServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/http/TestServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/http/TestServerInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-bytetomessagedecoder-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-bytetomessagedecoder-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-channel-bind-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-channelhandlercontext-03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-channelhandlercontext-uml-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-channelinboundhandler-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-channelinboundhandler-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-channelinboundinvoker-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-channeloutboundhandler-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-channeloutboundhandler-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-channeloutboundinvoker-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-channelpipeline-03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-channelpipeline-04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-channelpipeline-05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-channelpipeline-handler-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-channelpipeline-handler-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-channelpipeline-handler-03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-channelpipeline-handler-04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-channelpipeline-handler-05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-channelpipeline-handler-06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-channelpipeline-handler-07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-channelpipeline-handler-08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-channelpipeline-handler-09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-dubbo-rpc-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-dubbo-rpc-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-encoder-decoder-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-group-chat-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-group-chat-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-group-chat-03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-group-chat-04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-group-chat-05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-group-chat-06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-handler-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-handler-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-handler-03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-handler-grou-asyn-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-handler-grou-asyn-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-handler-grou-asyn-03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-handler-submit-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-handler-submit-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-heartheat-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-heartheat-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-heartheat-03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-heartheat-04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-idlestatehandler-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-idlestatehandler-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-idlestatehandler-03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-idlestatehandler-04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-idlestatehandler-05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-idlestatehandler-06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-inorout-bound-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-inorout-bound-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-inorout-bound-03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-inorout-bound-04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-new-channel-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-new-channelpipeline-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-nioeventloop-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-nioeventloop-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-other-encoder-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-pipeline-handler-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-pipeline-handler-aysnc-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-protobuf-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-protobuf-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-protobuf-03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-protobuf-04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-protobuf-05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-protobuf-06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-protobuf-07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-protobuf-08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-protobuf-mydatainfo-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-protobuf-mydatainfo-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-protocol-tcp-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-protocol-tcp-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-protocol-tcp-03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-rpc-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-rpc-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-rpc-03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-source-analysis-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-source-analysis-channel-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-source-analysis-channelinboundhandler-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-source-analysis-channeloutboundhandler-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-source-analysis-channelpipeline-handler-congtext-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-source-analysis-childgrou-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-source-analysis-childgroup-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-source-analysis-client-request-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-source-analysis-event-executor-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-source-analysis-executor-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-source-analysis-executor-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-source-analysis-executor-03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-source-analysis-handler-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-source-analysis-idlestatehandler-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-source-analysis-niosocketchannel-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-source-analysis-workergroup-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-tcp-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-tcp-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-unpooled-buffer-03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-websocket-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-websocket-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-websocket-03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-websocket-client-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-websocket-client-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-websocket-client-03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-websocket-server-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-netty-websocket-server-close-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/java-tcp-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/buf/NettyByteBufTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/codec/NettyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/codec/NettyClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/codec/NettyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/codec/NettyServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/codec/Student.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/codec/StudentPoJo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/codec2/MyDataInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/codec2/NettyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/codec2/NettyClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/codec2/NettyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/codec2/NettyServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/codec2/Student.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/codec2/ToIntegerDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/dubborpc/customer/ClientBootstrap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/dubborpc/netty/NettyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/dubborpc/netty/NettyClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/dubborpc/netty/NettyClientProxyHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/dubborpc/netty/NettyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/dubborpc/netty/NettyServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/dubborpc/provider/HelloServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/dubborpc/provider/MyServerBootstrap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/dubborpc/pulicinterface/HelloService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/groupchant/GroupChatClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/groupchant/GroupChatClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/groupchant/GroupChatServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/groupchant/GroupChatServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/heartbeat/MyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/heartbeat/MyServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/inoroutboundhandler/MyByteToLongDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/inoroutboundhandler/MyByteToLongDecoder2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/inoroutboundhandler/MyClientInHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/inoroutboundhandler/MyClientInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/inoroutboundhandler/MyInClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/inoroutboundhandler/MyInServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/inoroutboundhandler/MyInServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/inoroutboundhandler/MyLongToByteEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/inoroutboundhandler/MyServerInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/protocoltcp/MessageProtocol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/protocoltcp/MyMessageDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/protocoltcp/MyMessageEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/protocoltcp/MyProtocolTcpClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/protocoltcp/MyProtocolTcpClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/protocoltcp/MyProtocolTcpClientInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/protocoltcp/MyProtocolTcpServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/protocoltcp/MyProtocolTcpServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/protocoltcp/MyProtocolTcpServerInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/source/echo/EchoClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/source/echo/EchoClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/source/echo/EchoServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/source/echo/EchoServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/tcp/MyTcpClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/tcp/MyTcpClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/tcp/MyTcpClientInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/tcp/MyTcpServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/tcp/MyTcpServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/tcp/MyTcpServerInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/websocket/MyWebSocketFrameHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/websocket/WebSocketMyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/websocket/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learn/vo/TestDo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/learn/simple/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learn/simple/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,9 +203,17 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="learn-netty" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -88,6 +223,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
+        <option value="Lua Script" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -115,42 +253,48 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="true" />
     <property name="Repository.Attach.Sources" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../hubspace" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/learn/simple/netty/source/echo" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.1521739" />
     <property name="project.structure.side.proportion" value="0.19095941" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.learn.simple.netty.inoroutboundhandler" />
       <recent name="com.learn.netty.nio" />
       <recent name="com.learn.netty" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\workspace\testpace\learn-netty" />
+      <recent name="D:\workspace\testpace\learn-netty\src\main\java\com\learn\simple\netty\source\echo" />
+      <recent name="D:\workspace\testpace\learn-netty\src\main\java\com\learn\simple\netty\protocoltcp" />
+      <recent name="D:\workspace\testpace\learn-netty\src\main\java\com\learn\simple\netty\tcp" />
+      <recent name="D:\workspace\testpace\learn-netty\src\main\java\com\learn\simple\netty\codec2" />
+      <recent name="D:\workspace\testpace\learn-netty\src\main\java\com\learn\simple\netty\codec" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NettyByteBufOne">
+  <component name="RunManager" selected="Application.GroupChatClient">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="NettyByteBufOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.simple.netty.buf.NettyByteBufOne" />
+    <configuration name="ClientBootstrap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.simple.netty.dubborpc.customer.ClientBootstrap" />
       <module name="learn-netty.main" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.simple.netty.buf.*" />
+          <option name="PATTERN" value="com.learn.simple.netty.dubborpc.customer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,13 +302,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NettyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.simple.netty.NettyClient" />
+    <configuration name="EchoServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.simple.netty.source.echo.EchoServer" />
       <module name="learn-netty.main" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.simple.netty.*" />
+          <option name="PATTERN" value="com.learn.simple.netty.source.echo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,13 +316,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NettyServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.simple.netty.NettyServer" />
+    <configuration name="GroupChatClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.simple.netty.groupchant.GroupChatClient" />
       <module name="learn-netty.main" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.learn.simple.netty.*" />
+          <option name="PATTERN" value="com.learn.simple.netty.groupchant.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GroupChatServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learn.simple.netty.groupchant.GroupChatServer" />
+      <module name="learn-netty.main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.simple.netty.groupchant.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -193,20 +351,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.learn.simple.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.learn.simple.netty.http.TestServer" />
-      <module name="learn-netty.main" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learn.simple.netty.http.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -247,11 +391,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NettyByteBufOne" />
-        <item itemvalue="Application.TestServer" />
+        <item itemvalue="Application.GroupChatClient" />
+        <item itemvalue="Application.GroupChatServer" />
+        <item itemvalue="Application.EchoServer" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.NettyClient" />
-        <item itemvalue="Application.NettyServer" />
+        <item itemvalue="Application.ClientBootstrap" />
       </list>
     </recent_temporary>
   </component>
@@ -281,7 +425,22 @@
       <workItem from="1602806897248" duration="22113000" />
       <workItem from="1602857506812" duration="3879000" />
       <workItem from="1603030201033" duration="1790000" />
-      <workItem from="1603065024362" duration="21101000" />
+      <workItem from="1603065024362" duration="21175000" />
+      <workItem from="1603107568908" duration="4028000" />
+      <workItem from="1603152333388" duration="22524000" />
+      <workItem from="1603193427998" duration="5452000" />
+      <workItem from="1603204154241" duration="1336000" />
+      <workItem from="1603206232933" duration="1871000" />
+      <workItem from="1603239388060" duration="19874000" />
+      <workItem from="1603285823109" duration="6126000" />
+      <workItem from="1603325148526" duration="20134000" />
+      <workItem from="1603373865724" duration="5476000" />
+      <workItem from="1603411641427" duration="23482000" />
+      <workItem from="1603671324087" duration="12779000" />
+      <workItem from="1603721454821" duration="3384000" />
+      <workItem from="1603758186329" duration="10200000" />
+      <workItem from="1603844272821" duration="14215000" />
+      <workItem from="1603929328214" duration="10769000" />
     </task>
     <servers />
   </component>
@@ -292,117 +451,155 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="540" y="52" width="723" height="734" key="#com.intellij.ide.util.MemberChooser" timestamp="1603067526079">
+    <state x="959" y="421" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603242716718">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="540" y="52" width="723" height="734" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1603067526079" />
+    <state x="959" y="421" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864@0.0.1536.864" timestamp="1603242716718" />
+    <state x="540" y="52" width="723" height="734" key="#com.intellij.ide.util.MemberChooser" timestamp="1603700876658">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="540" y="52" width="723" height="734" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1603700876658" />
     <state x="413" y="129" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1602771611603">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="413" y="129" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1536.864@0.0.1536.864" timestamp="1602771611603" />
-    <state width="900" height="754" key="DebuggerActiveHint" timestamp="1603089086178">
+    <state x="135" y="130" width="874" height="633" key="#xdebugger.evaluate" timestamp="1603876119322">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="900" height="754" key="DebuggerActiveHint/0.0.1536.864@0.0.1536.864" timestamp="1603089086178" />
-    <state x="384" y="113" key="FileChooserDialogImpl" timestamp="1602818332505">
+    <state x="135" y="130" width="874" height="633" key="#xdebugger.evaluate/0.0.1536.864@0.0.1536.864" timestamp="1603876119322" />
+    <state width="944" height="583" key="DebuggerActiveHint" timestamp="1603876114739">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="384" y="113" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1602818332505" />
-    <state width="1486" height="288" key="GridCell.Tab.0.bottom" timestamp="1603100175160">
+    <state width="944" height="583" key="DebuggerActiveHint/0.0.1536.864@0.0.1536.864" timestamp="1603876114739" />
+    <state x="434" y="0" key="Diagram.Print.Preview.Dialog" timestamp="1603432923686">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1486" height="288" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1603100175160" />
-    <state width="1486" height="288" key="GridCell.Tab.0.center" timestamp="1603100175160">
+    <state x="434" y="0" key="Diagram.Print.Preview.Dialog/0.0.1536.864@0.0.1536.864" timestamp="1603432923686" />
+    <state x="384" y="113" key="FileChooserDialogImpl" timestamp="1603433001602">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1486" height="288" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1603100175160" />
-    <state width="1486" height="288" key="GridCell.Tab.0.left" timestamp="1603100175160">
+    <state x="384" y="113" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1603433001602" />
+    <state width="1483" height="251" key="GridCell.Tab.0.bottom" timestamp="1603964338189">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1486" height="288" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1603100175160" />
-    <state width="1486" height="288" key="GridCell.Tab.0.right" timestamp="1603100175160">
+    <state width="1483" height="251" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1603964338189" />
+    <state width="1483" height="251" key="GridCell.Tab.0.center" timestamp="1603964338189">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1486" height="288" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1603100175160" />
-    <state width="1486" height="288" key="GridCell.Tab.1.bottom" timestamp="1603100175160">
+    <state width="1483" height="251" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1603964338189" />
+    <state width="1483" height="251" key="GridCell.Tab.0.left" timestamp="1603964338189">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1486" height="288" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1603100175160" />
-    <state width="1486" height="288" key="GridCell.Tab.1.center" timestamp="1603100175160">
+    <state width="1483" height="251" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1603964338189" />
+    <state width="1483" height="251" key="GridCell.Tab.0.right" timestamp="1603964338189">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1486" height="288" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1603100175160" />
-    <state width="1486" height="288" key="GridCell.Tab.1.left" timestamp="1603100175160">
+    <state width="1483" height="251" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1603964338189" />
+    <state width="1483" height="256" key="GridCell.Tab.1.bottom" timestamp="1603877789257">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1486" height="288" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1603100175160" />
-    <state width="1486" height="288" key="GridCell.Tab.1.right" timestamp="1603100175160">
+    <state width="1483" height="256" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1603877789257" />
+    <state width="1483" height="256" key="GridCell.Tab.1.center" timestamp="1603877789257">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1486" height="288" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1603100175160" />
+    <state width="1483" height="256" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1603877789257" />
+    <state width="1483" height="256" key="GridCell.Tab.1.left" timestamp="1603877789257">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1483" height="256" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1603877789257" />
+    <state width="1483" height="256" key="GridCell.Tab.1.right" timestamp="1603877789257">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1483" height="256" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1603877789257" />
     <state x="246" y="114" key="IDE.errors.dialog" timestamp="1602482421981">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="246" y="114" key="IDE.errors.dialog/0.0.1536.864@0.0.1536.864" timestamp="1602482421981" />
-    <state x="104" y="4" width="1294" height="836" key="SettingsEditor" timestamp="1602771612940">
+    <state x="104" y="0" width="1294" height="864" key="SettingsEditor" timestamp="1603786621735">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="104" y="4" width="1294" height="836" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1602771612940" />
+    <state x="104" y="0" width="1294" height="864" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1603786621735" />
+    <state x="423" y="111" width="675" height="655" key="StructurePopup" timestamp="1603435831098">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="423" y="111" width="675" height="655" key="StructurePopup/0.0.1536.864@0.0.1536.864" timestamp="1603435831098" />
     <state x="380" y="298" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1602771603014">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="380" y="298" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.864@0.0.1536.864" timestamp="1602771603014" />
-    <state x="590" y="174" width="737" height="690" key="find.popup" timestamp="1602487287813">
+    <state x="485" y="214" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1603163683060">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="590" y="174" width="737" height="690" key="find.popup/0.0.1536.864@0.0.1536.864" timestamp="1602487287813" />
-    <state x="358" y="-2" width="840" height="862" key="search.everywhere.popup" timestamp="1603099417074">
+    <state x="485" y="214" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.864@0.0.1536.864" timestamp="1603163683060" />
+    <state x="176" y="3" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1603436065500">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="358" y="-2" width="840" height="862" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1603099417074" />
+    <state x="176" y="3" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.864@0.0.1536.864" timestamp="1603436065500" />
+    <state x="590" y="174" width="737" height="690" key="find.popup" timestamp="1603937705200">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="590" y="174" width="737" height="690" key="find.popup/0.0.1536.864@0.0.1536.864" timestamp="1603937705200" />
+    <state width="750" height="535" key="javadoc.popup" timestamp="1603333147423">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="750" height="535" key="javadoc.popup/0.0.1536.864@0.0.1536.864" timestamp="1603333147423" />
+    <state x="358" y="-2" width="840" height="862" key="search.everywhere.popup" timestamp="1603961113249">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="358" y="-2" width="840" height="862" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1603961113249" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/learn/simple/nio/BasicBuffer.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/learn/simple/netty/dubborpc/netty/NettyClient.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="75" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/learn/simple/nio/NioFileChannel01.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="2" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/learn/simple/Test.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="78" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/learn/simple/nio/NioFileChannel03.java</url>
-          <line>61</line>
-          <option name="timeStamp" value="3" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/learn/simple/netty/dubborpc/netty/NettyClientProxyHandler.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="79" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/learn/simple/nio/NioFileChannel03.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="4" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/learn/simple/netty/dubborpc/netty/NettyClientProxyHandler.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="80" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/learn/simple/netty/NettyServerHandler.java</url>
-          <line>100</line>
-          <option name="timeStamp" value="7" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/learn/simple/netty/source/echo/EchoServer.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="83" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/learn/simple/netty/NettyServerHandler.java</url>
-          <line>95</line>
-          <option name="timeStamp" value="8" />
+          <url>jar://$PROJECT_DIR$/../../../soft/gradle-5.2.1/caches/modules-2/files-2.1/io.netty/netty-all/4.1.43.Final/acaa896a0890ca6c902fa9fe64a282dead26f183/netty-all-4.1.43.Final-sources.jar!/io/netty/bootstrap/AbstractBootstrap.java</url>
+          <line>343</line>
+          <option name="timeStamp" value="84" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/learn/simple/netty/http/TestServerInitializer.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="9" />
+          <url>jar://$PROJECT_DIR$/../../../soft/gradle-5.2.1/caches/modules-2/files-2.1/io.netty/netty-all/4.1.43.Final/acaa896a0890ca6c902fa9fe64a282dead26f183/netty-all-4.1.43.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java</url>
+          <line>476</line>
+          <option name="timeStamp" value="86" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/learn/simple/netty/buf/NettyByteBufOne.java</url>
-          <line>40</line>
-          <option name="timeStamp" value="11" />
+          <url>jar://$PROJECT_DIR$/../../../soft/gradle-5.2.1/caches/modules-2/files-2.1/io.netty/netty-all/4.1.43.Final/acaa896a0890ca6c902fa9fe64a282dead26f183/netty-all-4.1.43.Final-sources.jar!/io/netty/channel/AbstractChannel.java</url>
+          <line>548</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../soft/gradle-5.2.1/caches/modules-2/files-2.1/io.netty/netty-all/4.1.43.Final/acaa896a0890ca6c902fa9fe64a282dead26f183/netty-all-4.1.43.Final-sources.jar!/io/netty/channel/AbstractChannel.java</url>
+          <line>566</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" log-message="true" suspend="NONE" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/learn/simple/netty/inoroutboundhandler/MyInServerHandler.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="89" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
